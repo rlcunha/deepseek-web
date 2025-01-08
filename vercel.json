@@ -1,0 +1,14 @@
+{
+  "build": {
+    "env": {
+      "DEEPSEEK_API_KEY": "@deepseek_api_key",
+      "NEXT_PUBLIC_MAX_TOKENS": "1000"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
